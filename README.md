@@ -1,1 +1,2 @@
-# Projekt-PROO
+# Projekt PROO - Gra strategiczna
+

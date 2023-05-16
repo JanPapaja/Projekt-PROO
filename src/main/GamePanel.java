@@ -52,7 +52,12 @@ public class GamePanel extends JPanel implements Runnable
         super.paintComponent(g);
 
         Graphics2D g2 = (Graphics2D)g; //Jak czytałem i dobrze zrozumiałem to tutaj zmieniam nasz obiekt klasy Graphics g
-        // na obiekt klasy Graphics2D
+                                        // na obiekt klasy Graphics2D
+        g2.setColor(Color.white);
+
+        g2.fillRect(100,100,titleSize,titleSize);
+
+        g2.dispose();
     }
 }
 
