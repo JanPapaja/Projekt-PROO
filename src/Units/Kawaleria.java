@@ -1,6 +1,7 @@
 package Units;
 
 import Players.PlayerType;
+import GameEngine.Coordinates;
 
 public class Kawaleria
 {

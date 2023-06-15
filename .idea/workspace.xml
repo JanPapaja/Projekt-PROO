@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5681dd7-8282-4d93-b9fe-0c55be8a8209" name="Changes" comment="Wprowadzanie nowej klasy odczytującej ruch myszki">
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/MoveAnalizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameEngine/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/GUIEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/GameGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units/Artyleria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units/Kawaleria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units/Piechota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units/Unit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Units/UnitType.java" afterDir="false" />
+    <list default="true" id="d5681dd7-8282-4d93-b9fe-0c55be8a8209" name="Changes" comment="Dodanie nowych klas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Players/PlayerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Players/PlayerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MouseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/MoveAnalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/MoveAnalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/Artyleria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Artyleria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/Kawaleria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Kawaleria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686782555550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodanie nowych klas">
+      <created>1686791386365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686791386365</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rozpoczęcie projektu" />
     <MESSAGE value="Wprowadzenie głównej pętli gry" />
     <MESSAGE value="Wprowadzanie nowej klasy odczytującej ruch myszki" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wprowadzanie nowej klasy odczytującej ruch myszki" />
+    <MESSAGE value="Dodanie nowych klas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie nowych klas" />
   </component>
 </project>
