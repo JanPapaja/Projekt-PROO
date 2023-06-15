@@ -1,7 +1,14 @@
 package main;
 
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
+
 public class Main {
+    JFrame window;
+    JPanel textPanel;
+    JLabel textLabel;
+    Font normalFont = new Font("Times New Roman", Font.PLAIN, 28);
+
     public static void main(String[] args)
     {
         JFrame window = new JFrame();
@@ -19,4 +26,5 @@ public class Main {
 
         gamePanel.startGameThread();
     }
+
 }
