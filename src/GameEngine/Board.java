@@ -91,7 +91,7 @@ public class Board
             captureUnit(finalSquare);
         }
         //Make the move
-        finalSquare.setUnit(initSquare.getUNit());
+        finalSquare.setUnit(initSquare.getUnit());
         initSquare.releaseUnit();
     }
 }

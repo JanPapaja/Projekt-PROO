@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5681dd7-8282-4d93-b9fe-0c55be8a8209" name="Changes" comment="Dodanie nowych klas">
+    <list default="true" id="d5681dd7-8282-4d93-b9fe-0c55be8a8209" name="Changes" comment="Modyfikacja klasy Move i MoveAnalizer">
+      <change afterPath="$PROJECT_DIR$/src/Graphics.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui/GUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameEngine/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameEngine/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameEngine/MoveAnalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/MoveAnalizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameEngine/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameEngine/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/GUIEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/GUIEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/GameGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Players/PlayerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Players/PlayerType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Units/Artyleria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Artyleria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Units/Kawaleria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Kawaleria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/Piechota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Piechota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Units/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Units/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +73,32 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Papaja\IdeaProjects\Projekt PROO\src\Muzyka" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Papaja\IdeaProjects\Projekt PROO\src\Graphics" />
+      <recent name="C:\Users\Papaja\IdeaProjects\Projekt PROO\src\Gui" />
+      <recent name="C:\Users\Papaja\IdeaProjects\Projekt PROO\src" />
+      <recent name="C:\Users\Papaja\IdeaProjects\Projekt PROO" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GUIEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Gui.GUIEngine" />
+      <module name="Projekt PROO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUIEngine" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686791386365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modyfikacja klasy Move i MoveAnalizer">
+      <created>1686794015900</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686794015900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +159,25 @@
     <MESSAGE value="Wprowadzenie głównej pętli gry" />
     <MESSAGE value="Wprowadzanie nowej klasy odczytującej ruch myszki" />
     <MESSAGE value="Dodanie nowych klas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie nowych klas" />
+    <MESSAGE value="Modyfikacja klasy Move i MoveAnalizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modyfikacja klasy Move i MoveAnalizer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projekt_PROO$GUIEngine.ic" NAME="GUIEngine Coverage Results" MODIFIED="1686902858095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Gui.*</FILTER>
+    </SUITE>
   </component>
 </project>

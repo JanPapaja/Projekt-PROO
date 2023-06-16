@@ -7,7 +7,7 @@ public class Square
 
     private Unit unit = null;
 /** Tworzymy nowe pole  */
-    public Square(Coordinates coordinates; Unit unit) {
+    public Square(Coordinates coordinates, Unit unit) {
         this.coordinates = coordinates;
         this.unit = unit;
     }

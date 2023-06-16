@@ -4,7 +4,7 @@ public enum PlayerType
 {
     France("F"), Russia("R");
 
-    private String value;
+    private final String value;
 
     PlayerType(String value)
     {

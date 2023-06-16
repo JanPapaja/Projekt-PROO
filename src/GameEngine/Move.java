@@ -29,7 +29,7 @@ public class Move
         return initCoordinates;
     }
 
-    public Coordinates getFinalCoordinate()
+    public Coordinates getFinalCoordinates()
     {
         return finalCoordinates;
     }
